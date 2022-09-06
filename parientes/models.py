@@ -7,3 +7,4 @@ class Familia(models.Model):
     apellido = models.CharField(max_length=50)
     edad = models.IntegerField()
     parentesco = models.CharField(max_length=50)
+    nacimiento = models.DateField()

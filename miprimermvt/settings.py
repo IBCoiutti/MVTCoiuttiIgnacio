@@ -55,7 +55,7 @@ ROOT_URLCONF = 'miprimermvt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["D:/CoderHouse/MVTIgnacio/miprimermvt/plantillas/"],
+        'DIRS': ["./plantillas/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
